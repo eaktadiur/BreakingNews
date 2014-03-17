@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<title>Feature List | Demo page</title>
+	
+	<!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+		
+
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.featureList-1.0.0.js"></script>
+	<style type="text/css">
+	
+
+		div#feature_list {
+			
+			height: 240px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		div#feature_list ul {
+			position: absolute;
+			top: 0;
+			list-style: none;	
+			padding: 0;
+			margin: 0;
+		}
+
+		ul#tabs {
+			left: 0;
+			z-index: 2;
+			width: 320px;
+		}
+
+		ul#tabs li {
+			font-size: 12px;
+			font-family: Arial;
+		}
+		
+		ul#tabs li img {
+			padding: 5px;
+			border: none;
+			float: left;
+			
+		}
+
+		ul#tabs li a {
+			color: #222;
+			text-decoration: none;	
+			display: block;
+			padding: 10px;
+			height: 60px;
+			outline: none;
+		}
+
+		ul#tabs li a:hover {
+			text-decoration: underline;
+		}
+
+		ul#tabs li.current {
+			background:  url('feature-tab-current.png');
+			background-repeat:no-repeat;
+			background-size:100%;
+			color: #FFF;
+			max-width: 80%;
+		}
+		
+		ul#tabs li.current p{
+			background:  url('feature-tab-current.png');
+			background-repeat:no-repeat;
+			background-size:80%;
+			color: #FFF;
+			max-width: 80%;
+		}
+
+		ul#tabs li a.current:hover {
+			text-decoration: none;
+			cursor: default;
+		}
+
+		ul#output {
+			right: 0;
+			width: 463px;
+			height: 240px;
+			position: relative;
+		}
+
+		ul#output li {
+			position: absolute;
+			width: 463px;
+			height: 240px;
+		}
+
+		ul#output li a {
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			padding: 8px 12px;
+			text-decoration: none;
+			font-size: 11px;
+			color: #FFF;
+			background: #000;
+			-moz-border-radius: 5px;
+		}
+		
+		ul#output li a:hover {
+			background: #D33431;
+		}
+	</style>
+	<script language="javascript">
+		$(document).ready(function() {
+
+			$.featureList(
+				$("#tabs li"),
+				$("#output li"), { start_item	:	1}
+			);
+
+			/*
+			
+			// Alternative
+
+			
+			$('#tabs li a').featureList({
+				output			:	'#output li',
+				start_item		:	1
+			});
+
+			*/
+
+		});
+	</script>
+</head>
+<body>
+	
+
+<div class='container'>
+<h1>Feature List</h1>
+
+<p>This is a demo page. You can view the supporting article <a href="http://jqueryglobe.com/article/feature-list">here</a></p>
+
+	<div class="box container-fluid box">
+
+		<div class="row-fluid">
+			<!-- News Section 1 -->
+			<div class="col-lg-8 col-md-8 col-sm-12">
+			<div id="feature_list" class='span12'>
+				<ul id="tabs">
+					<li>
+						<a href="javascript:;" class='img-responsive'>
+							<p class='span8'>Services Lorem ipsum dolor sit amet consect</p>
+						</a>
+					</li>
+					<li class='current'>
+						<a href="javascript:;" class='img-responsive'>
+							<p class='span8'>Programming Lorem ipsum dolor sit amet consect</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class='img-responsive'>
+							<p class='span8'>Applications Lorem ipsum dolor sit amet consect</p>
+						</a>
+					</li>
+				</ul>
+				<ul id="output">
+					<li>
+						<img src="sample1.jpg" class='img-responsive thumbnail'/>
+						<a href="#">See project details</a>
+					</li>
+					<li>
+						<img src="sample2.jpg" class='img-responsive thumbnail' />
+						<a href="#">See project details</a>
+					</li>
+					<li>
+						<img src="sample3.jpg" class='img-responsive thumbnail' />
+						<a href="#">See project details</a>
+					</li>
+				</ul>
+
+			</div>
+			
+		</div>
+			<div class="col-lg-8 col-md-8 col-sm-12">
+			
+			</div>
+		</div>	
+	</div>	
+</div>
+</body>
+</html>
