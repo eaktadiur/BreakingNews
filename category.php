@@ -1,15 +1,22 @@
-<?php
+﻿<?php
 include './body/header.php';
 ?>
 
 <div class="row-fluid">
     <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-        <h2 class="category_name">জাতীয়</h2>
-        <div class="row-fluid box">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <img src="assets/img/news_img.jpg" class="img-thumbnail img-responsive" />
+        <div class="content-article-title">
+            <h2>শিল্প-সাহিত্য</h2>
+            <div class="right-title-side">
+                <a href="http://breakingnews.com.bd/"><i class="glyphicon glyphicon-home"></i> প্রচ্ছদ</a>
+                <a href="http://breakingnews.com.bd/feed/index/art" class="orange"><i class="glyphicon glyphicon-screenshot"></i> সাবস্ক্রাইব</a>
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+        </div>
+
+        <div class="row-fluid box">
+            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                <img src="assets/img/news_img.jpg" class="img-responsive" />
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
                 <a href="single.html"><h2 class="title">এগিয়ে যাচ্ছে বাংলাদেশ: ইশতেহারের স্লোগানে শেখ হাসিনা</h2></a>
                 <a href="single.html" class="news-info"><i class="fa fa-user"></i> নিজস্ব প্রতিবেদক</a>
                 <a href="single.html" class="news-info"><i class="fa fa-globe"></i> ২৬ ডিসেম্বর ২০১২</a>
@@ -29,6 +36,7 @@ include './body/header.php';
                 <img src="assets/img/advertise_img.png" class="img-thumbnail img-responsive" />
             </div>
         </div>
+        <br>
 
         <div class="row-fluid">
             <div class="col-lg-4 col-md-4 col-sm-4">
@@ -548,31 +556,31 @@ include './body/header.php';
 
 <div>
     <h2 class="category_name">জাতীয় বিভাগের সর্বোচ্চ পঠিত ৩০</h2>
-            
-            <div class="row">
-                <?php for ($i = 1; $i <= 4; $i++) { ?>
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
-                    <div class="news-list">
-                        <ul class="list-group nav">
-                            <li class="list-group-item"><a href="single.html">আর্জেন্টিনায় পিরানহার আক্রমণে আহত ৬০</a></li>
-                            <li class="list-group-item"><a href="single.html">উগান্ডার বিদ্রোহীদের হামলায় অন্তত ৪০জন নিহত</a></li>
-                            <li class="list-group-item"><a href="single.html">জলপাইগুড়িতে সাইকেল বোমায় নিহত ৩</a></li>
-                            <li class="list-group-item"><a href="single.html">সাংবাদিক নেতারা দেখা করলেন খালেদার সাথে </a></li>
-                            <li class="list-group-item"><a href="single.html">ককটেলে আহত পুলিশ সদস্যের মৃত্যু </a></li>
-                            <li class="list-group-item"><a href="single.html">আর্জেন্টিনায় পিরানহার আক্রমণে আহত ৬০</a></li>
-                            <li class="list-group-item"><a href="single.html">উগান্ডার বিদ্রোহীদের হামলায় অন্তত ৪০জন নিহত</a></li>
-                            <li class="list-group-item"><a href="single.html">জলপাইগুড়িতে সাইকেল বোমায় নিহত ৩</a></li>
-                            <li class="list-group-item"><a href="single.html">সাংবাদিক নেতারা দেখা করলেন খালেদার সাথে </a></li>
-                            <li class="list-group-item"><a href="single.html">ককটেলে আহত পুলিশ সদস্যের মৃত্যু </a></li>
-                            <li class="list-group-item"><a href="single.html">আর্জেন্টিনায় পিরানহার আক্রমণে আহত ৬০</a></li>
-                        </ul>
-                    </div>
+
+    <div class="row-fluid">
+        <?php for ($i = 1; $i <= 4; $i++) { ?>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                <div class="news-list">
+                    <ul class="list-group nav">
+                        <li class="list-group-item"><a href="single.html">আর্জেন্টিনায় পিরানহার আক্রমণে আহত ৬০</a></li>
+                        <li class="list-group-item"><a href="single.html">উগান্ডার বিদ্রোহীদের হামলায় অন্তত ৪০জন নিহত</a></li>
+                        <li class="list-group-item"><a href="single.html">জলপাইগুড়িতে সাইকেল বোমায় নিহত ৩</a></li>
+                        <li class="list-group-item"><a href="single.html">সাংবাদিক নেতারা দেখা করলেন খালেদার সাথে </a></li>
+                        <li class="list-group-item"><a href="single.html">ককটেলে আহত পুলিশ সদস্যের মৃত্যু </a></li>
+                        <li class="list-group-item"><a href="single.html">আর্জেন্টিনায় পিরানহার আক্রমণে আহত ৬০</a></li>
+                        <li class="list-group-item"><a href="single.html">উগান্ডার বিদ্রোহীদের হামলায় অন্তত ৪০জন নিহত</a></li>
+                        <li class="list-group-item"><a href="single.html">জলপাইগুড়িতে সাইকেল বোমায় নিহত ৩</a></li>
+                        <li class="list-group-item"><a href="single.html">সাংবাদিক নেতারা দেখা করলেন খালেদার সাথে </a></li>
+                        <li class="list-group-item"><a href="single.html">ককটেলে আহত পুলিশ সদস্যের মৃত্যু </a></li>
+                        <li class="list-group-item"><a href="single.html">আর্জেন্টিনায় পিরানহার আক্রমণে আহত ৬০</a></li>
+                    </ul>
                 </div>
-                <?php }
-                ?>
-                
-                
             </div>
+        <?php }
+        ?>
+
+
+    </div>
 </div>
 
 <?php include './body/footer.php'; ?>

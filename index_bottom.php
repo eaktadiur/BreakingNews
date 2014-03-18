@@ -162,7 +162,6 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="panel-news-details">
                                 <div class="news-list">
-                                    <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                                             <div class="panel-news-details">
                                                 <a href="signal.html">
@@ -195,7 +194,6 @@
                                                 <h4 class="sub-title"><a href="signal.html">ককটেলে আহত পুলিশ সদস্যের মৃত্যু</a></h4>
                                             </div>
                                         </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +228,6 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="panel-news-details">
                                 <div class="news-list">
-                                    <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                                             <div class="panel-news-details">
                                                 <a href="signal.html">
@@ -263,7 +260,6 @@
                                                 <h4 class="sub-title"><a href="signal.html">ককটেলে আহত পুলিশ সদস্যের মৃত্যু</a></h4>
                                             </div>
                                         </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -57,6 +57,7 @@
         </div>
     </div>
 </footer>
+<br><br>
 
 <div class="br-fTicker">
     <div class="br-fTickerAd"><strong class="icon-text text">&#128227;&nbsp;<span class="bn_font">Breaking</span></strong>

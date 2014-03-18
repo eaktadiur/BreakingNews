@@ -79,12 +79,3 @@
     font-family: "Entypo" !important;
     font-weight: normal !important;
 }
-
-
-.footer-content .info {
-    border-top: 1px dotted #D34331;
-        border-bottom: 1px dotted #D34331;
-    font-size: 13px;
-    padding: 5px;
-    text-align: center;
-}
