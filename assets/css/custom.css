@@ -289,3 +289,8 @@ ul.newsticker li {
     font-size: 13px;
     text-transform: uppercase;
 }
+
+
+.contentHolder { position:relative; margin:0px auto; padding:0px; height: 322px; overflow: hidden; }
+.contentHolder .contentBody {height: 322px; }
+.spacer { text-align:center }

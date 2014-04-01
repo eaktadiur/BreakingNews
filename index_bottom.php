@@ -628,7 +628,7 @@
                     </div>
                     <div class="panel-body">
                         <div class="news-list">
-                            <ul class="list-group nav horoscopes content-scroll">
+                            <ul class="list-group nav horoscopes content-scroll slimscroll">
                                 <?php for ($i = 0; $i <= 8; $i++) { ?>
                                     <li class="list-group-item">
                                         <div class="meida">

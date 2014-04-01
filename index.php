@@ -32,6 +32,7 @@ include './body/header.php';
 
     </div>
 
+
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 col-lg-pull-6">
         <div class="panel-heading red-border">
             <h3 class="panel-title">
@@ -39,7 +40,7 @@ include './body/header.php';
             </h3>
         </div>
         <div class="news-tab-list news-tab stripe content-scroll">
-            <ul class="media-list">
+            <ul class="media-list slimscrollTop">
                 <?php for ($i = 0; $i <= 8; $i++) { ?>
                     <li class="media">
                         <a class="pull-left" href="single.html">
@@ -51,6 +52,7 @@ include './body/header.php';
                 ?>
             </ul>
         </div>
+
     </div>
 
 
@@ -61,8 +63,8 @@ include './body/header.php';
                 <a href="category.html"><i class="fa icon red_bg fa-signal"></i> Top News</a>
             </h3>
         </div>
-        <div class="news-tab-list stripe content-scroll">
-            <ul class="media-list">
+        <div class="news-tab-list stripe content-scroll ">
+            <ul class="media-list slimscrollTop">
                 <?php for ($i = 0; $i <= 8; $i++) { ?>
                     <li class="media">
                         <a class="pull-left" href="single.html">

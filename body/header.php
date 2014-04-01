@@ -17,7 +17,7 @@
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <script type="text/javascript" src="assets/js/jquery.js"></script>
-        <script type="text/javascript" src="assets/js/s3Slider.js"></script>
+
 
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>

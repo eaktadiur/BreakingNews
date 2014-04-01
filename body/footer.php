@@ -84,15 +84,27 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.featureList-1.0.0.js"></script>
 <!-- custom scrollbars plugin -->
+<script type="text/javascript" src="assets/js/s3Slider.js"></script>
 <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="assets/js/custom.js "></script>
 <script src="assets/js/jquery.li-scroller.1.0.js "></script>
+<script src="assets/js/jquery.slimscroll.min.js"></script>
 
 
 
 
 <script type="text/javascript">
-$(document).ready(function(){$("ul#newsTicker").liScroll({travelocity: 0.07});});
+    $(document).ready(function() {
+        $("ul#newsTicker").liScroll({travelocity: 0.07});
+        $('.slimscrollTop').slimscroll({
+            height: 'auto',
+            width: 'auto'
+        });
+        $('.slimscroll').slimscroll({
+            height: '500px',
+            width: 'auto'
+        });
+    });
 </script>
 
 </body>
